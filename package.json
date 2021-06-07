@@ -1,0 +1,9 @@
+{
+  "name": "path-parser",
+  "version": "0.1.0",
+  "description": "A tool for parsing SVG path descriptors to viewbox coordinates",
+  "main": "index.js",
+  "author": "Josh Frank <eurosewusa@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
