@@ -1,6 +1,6 @@
 const round = ( value, decimals ) => Math.round( value * ( decimals ** 100 ) ) / ( decimals ** 100 );
 
-export class PathParser {
+class PathParser {
 
     static validCommand = /^[\t\n\f\r\s]*([achlmqstvz])[\t\n\f\r\s]*/i;
     static validFlag = /^[01]/;
@@ -310,7 +310,7 @@ class PathCommand {
 
 }
 
-export class Path {
+class Path {
 
     constructor( descriptor ) {
         this.descriptor = descriptor;
@@ -363,3 +363,5 @@ export class Path {
     }
 
 }
+
+module.exports = { PathParser, Path };

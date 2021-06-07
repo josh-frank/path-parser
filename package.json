@@ -5,5 +5,16 @@
   "main": "index.js",
   "author": "Josh Frank <eurosewusa@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josh-frank/path-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josh-frank/path-parser/issues"
+  },
+  "homepage": "https://github.com/josh-frank/path-parser#readme"
 }
